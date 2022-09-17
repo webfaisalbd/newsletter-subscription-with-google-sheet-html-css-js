@@ -13,3 +13,42 @@
     padding: 10px 10%;
     color: #fff;
 }
+
+.newsletterHero h3 {
+    margin-top: 15%;
+    font-weight: 400;
+    font-size: 30px
+}
+
+.newsletterHero h1 {
+    margin-top: 30px;
+    font-size: 40px
+}
+
+.newsletterHero p {
+    margin: 10px 0 50px;
+}
+
+.newsletterHero form {
+    background: #fff;
+    display: flex;
+    width: fit-content;    
+}
+
+.newsletterHero form input {
+    border: 0; 
+    outline: none;
+    padding: 10px 20px;
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.newsletterHero form button {
+    background: blue;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
