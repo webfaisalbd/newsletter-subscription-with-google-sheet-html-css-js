@@ -45,10 +45,15 @@
 }
 
 .newsletterHero form button {
-    background: blue;
     border: none;
     outline: none;
     height: 50px;
     width: 50px;
     cursor: pointer;
+}
+
+.newsletterHero span {
+    color: lightblue;
+    margin-top: 10px;
+    display: block;
 }
