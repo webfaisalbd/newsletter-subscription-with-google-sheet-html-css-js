@@ -11,6 +11,9 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
     .then(response => {
         newsletterMsg.innerHTML = "Thank you for subscribing.";
+        setTimeout(() => {
+            newsletterMsg.innerHTML = "";
+        }, 5000);
     })
     .catch(error => console.error('Error!', error.message))
 })
