@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzWf0lPitZFX9V1mhMxX-YS23Y6xr1Y8nzkhIU5AKzdnqZ03rzVCWXrsaENhwIaZYI/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzBAwPUzds9-QOB7uG7ABaYScYHD5HhPWZDZdRBvhaO1ptOGONjE7JRhTOGXUFBMuDT/exec';
 // scriptURL er  link ta google sheet theke nite hobe
 
 const form = document.forms['submit-to-google-sheet']
@@ -14,6 +14,7 @@ form.addEventListener('submit', e => {
         setTimeout(() => {
             newsletterMsg.innerHTML = "";
         }, 5000);
+        form.reset();
     })
     .catch(error => console.error('Error!', error.message))
 })
